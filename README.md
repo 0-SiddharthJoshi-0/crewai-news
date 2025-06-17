@@ -106,9 +106,6 @@ The system generates a `report.md` file containing:
 
 ## 🔧 Configuration
 
-### Dynamic Date Support
-The system automatically uses the current date in the format "DDth MONTH YYYY" (e.g., "15th December 2024"). This is handled through the `{todaydate}` placeholder in configuration files.
-
 ### LLM Configuration
 Currently configured to use Gemini 2.0 Flash. You can modify the LLM settings in `src/newproj/crew.py`.
 
