@@ -1,4 +1,4 @@
-```markdown
+
 # News Report - June 17, 2025
 
 ## Indian News
