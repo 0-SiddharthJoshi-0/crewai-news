@@ -54,4 +54,4 @@ This TechNewsWorld article offers an overview of the current state of Artificial
 Artificial Intelligence has played a pivotal role in helping astronomers unlock some of the universe's mysteries and has spurred significant progress in quantum computing. This breakthrough signifies AI's expanding influence across diverse scientific domains.
 *   **Source:** ScienceDaily
 *   **URL:** https://www.sciencedaily.com/news/computers_math/information_technology/
-```
+
