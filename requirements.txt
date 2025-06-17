@@ -2,3 +2,5 @@ crewai>=0.11.0
 python-dotenv>=0.19.0
 requests>=2.31.0
 feedparser>=6.0.10 
+crewai-tools>=0.0.1
+crewai[tools]>=0.130.0,<1.0.0
