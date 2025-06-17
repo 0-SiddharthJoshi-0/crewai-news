@@ -1,0 +1,23 @@
+find_news:
+  description: |
+    Find the 10 most important news articles from 1st MAY 2025 TO {todaydate}.
+    - 5 articles should be about India (national/international news affecting India)
+    - 5 articles should be about technology
+    - Make sure all articles are from today or very recent
+    - Include the source and URL for each article
+  expected_output: |
+    A list of 10 news articles with:Title, Source, URL and Brief description
+  agent: news_researcher
+
+write_report:
+  description: |
+    Create a well-formatted news report with the articles provided.
+    For each article: Write an engaging headline and Create a concise 2-3 sentence summary Include the source and URL
+    Organize the report with: A clear title with today's date, Separate sections for Indian and tech news and Clean formatting
+  expected_output: |
+    A markdown file (report.md) containing:
+    Title with date
+    Indian News section with 5 articles
+    Technology News section with 5 articles
+    Each article should have a headline, summary, and source
+  agent: news_writer
